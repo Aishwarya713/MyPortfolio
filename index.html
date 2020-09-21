@@ -1,0 +1,235 @@
+<html>
+    <head>
+        <title>Aishwarya- About me</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!--jQuery library--> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            var $win = $(window); 
+                $win.on('scroll',function(){
+                  $("#about1").fadeIn(1000);
+                  $("#about2").fadeIn(3000);
+                  $("#about3").fadeIn(5000);
+                  $("#resume").fadeIn(8000);
+                  $("#skills").fadeIn(9000)
+                  $("#Projects").fadeIn(10000);
+                  $("#Contact").fadeIn(11000);
+                });
+            
+        </script>
+    
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" style="font-size:25px; font-family: cursive;" href="index.php">Aishwarya</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                    <li><a href = "#about"> About </a></li>
+                    <li><a href = "#resume"> Resume</a></li>
+                    <li><a href="#Projects"> Projects</a></li>
+                    <li><a href = "#skills"> Skills</a></li>
+                    <li><a href="#Contact"> Contact</a></li>
+                        
+            </ul>
+        </div>
+    </div>
+</div>
+        <div class="content">
+        <div id="banner">
+        <div class="container">
+            <center>
+            <div id ="banner_content">
+                <h3>Hey there! I am</h3>
+                <h1>Aishwarya Rai</h1>
+                <br>
+                <h3>I am a competitive programmer <br>&<br>a web developer</h3>
+                <br>
+            </div>
+                 </center>
+         </div>
+        </div>
+        </div>
+        <div class="container">
+            <div id="about">
+                <div class="row">
+                    <br><br><br><br><br>
+                    <div class="col-sm-4 col-sm-offset-1"><br><img src ="img/me.jpeg" id="my-pic"></div>
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <h2 class="heading">About Me</h2>
+                        <p class="about-content" id="about1"><br>
+                            I am passionate about problem solving and web development. I'm well-versed in a wide range of computer
+                            programming languages.</p><p class="about-content"id="about2"> I have an enthusiasm for coding and a
+                            willingness to learn. I am also interested in Data Structures and algorithms. Some fields that I have worked on include Web development, IoT and Machine Learning.<br>
+                        </p> <p class="about-content"id="about3">Apart from this I am into science fiction and comic books. I hope someday my Harry potter knowledge will do me good.
+                            <br><br><strong>Name:</strong> Aishwarya rai<br><strong>Education:</strong> CS Undergrad<br>
+                            <strong>Address:</strong> Kanpur, Uttar Pradesh
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+        </div><br><br>
+        <div class="container">
+            <div class="row" id="resume">
+                <h2 class="heading col-xs-offset-1" >Education</h2><br>
+                <div class="col-sm-5 col-sm-offset-1 shadow1">
+                    
+                    <p class="date">2018-2022</p>
+                    <h2 class="cont-heading">Bachelor of Technology in Computer Science</h2>
+                    <br><p>Pranveer Singh Institute of Technology, Kanpur</p>
+                </div>
+                <div class="col-sm-5 col-sm-offset-1 shadow1">
+                    <p class="date">2018</p>
+                    <h2 class="cont-heading">High School and Intermediate</h2>
+                    <br><br><p>Mount Carmel College, Lucknow</p>
+                </div>
+            </div><br>
+            <div class="row" id="Projects">
+                <h2 class="heading col-xs-offset-1" >Projects</h2><br>
+                <div class="col-sm-5 col-sm-offset-1 shadow">
+                    
+                    <p class="date">2020</p>
+                    <h2 class="cont-heading">Plant Light Monitoring system</h2>
+                    <p>Personal project</p><br>
+                    <p>An IoT sensor based project which measures the intensity of light falling on the plant and sends
+                    it to your cloud.Implemented using LDR and ESP8266 WI-FI module
+                    </p>  
+                </div>
+                <div class="col-sm-5 col-sm-offset-1 shadow">
+                    <p class="date">2020</p>
+                    <h2 class="cont-heading">Temperature Monitoring system</h2>
+                    <p>Personal project</p><br>
+                    <p>A project based on a real world scenario which monitors temperature and alerts the user via SMS and
+                        email if the temperature goes beyond the temperature thresholds decided by user
+                        Implemented using LM35 , ESP8266 WI-FI module, API and SMTP services
+                    </p>  
+                </div>
+                <div class="col-sm-5 col-sm-offset-1 shadow">
+                    
+                    <p class="date">2020</p>
+                    <h2 class="cont-heading">e-commerce Website</h2>
+                    <p>Personal project</p><br>
+                    <p>A fully responsive e-commerce website built using Php, Bootstrap, SQL, REST-API
+                    </p>  
+                </div>
+                <div class="col-sm-5 col-sm-offset-1 shadow">
+                    <p class="date">2020</p>
+                    <h2 class="cont-heading">Qbreak: A virtual queue system</h2>
+                    <p>Team project</p><br>
+                    <p>A website to avoid crowded locations/ waiting lines during COVID-19 and ensuring social
+                        distancing. This is a virtual queue system which you can access at the comfort of your home.
+                        It can be used for places like supermarkets, clinics, shops etc. 
+                    </p>  
+                </div>
+                
+            </div>
+            <br>
+            <div class="row" id="skills">
+                <h2 class="heading col-xs-offset-1" >Skills</h2><br>
+                <div class="col-xs-5">
+                    <p class="progress-head">JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1">
+                    <p class="progress-head">Bootstrap</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="col-xs-5">
+                    <p class="progress-head">jQuery</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1">
+                    <p class="progress-head">Java</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+                <div class="col-xs-5">
+                    <p class="progress-head">Python</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1">
+                    <p class="progress-head">DBMS</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="col-xs-5 ">
+                    <p class="progress-head">C</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1">
+                    <p class="progress-head">Php</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="row" id="Contact">
+                <h2 class="heading col-xs-offset-1" >Contact</h2><br>
+                <div class="col-sm-2 col-sm-offset-1 shadow2">
+                    <center>
+                    <br>
+                    <i class="fa fa-map-marker" style="font-size:60px;color:rgb(3,27,200);"></i>
+                    <h3 class="con-head">Address</h3>
+                    <p>Girls Hostel,PSIT kanpur</p>
+                    </center>
+                </div>
+                <div class="col-sm-2 shadow2">
+                    <center>
+                        <br>
+                    <i class="fa fa-phone-square" style="font-size:60px;color:rgb(3,27,200);"></i>
+                    <h3 class="con-head">Contact Number</h3>
+                    <p>+91 9935306334</p>
+                    </center>
+                </div>
+                <div class="col-sm-2  shadow2">
+                    <center>
+                        <br>
+                    <i class="fa fa-envelope" style="font-size:60px;color:rgb(3,27,200);"></i>
+                    <h3 class="con-head">Email Address</h3>
+                    <p>aishwarya.rai221b@gmail.com</p>
+                    </center>
+                </div>
+                <div class="col-sm-2 shadow2">
+                     <center>
+                        <br>
+                    <i class="fa fa-globe" style="font-size:60px;color:rgb(3,27,200);"></i>
+                    <h3 class="con-head">Social media</h3>
+                    <a href="https://www.linkedin.com/in/aishwarya-rai-b4ba591b0/">LinkedIn</a>
+                     </center>
+                </div>
+            </div>
+            </div>
+<footer>
+    <div class="container">
+        <center>
+            <p>Copyright &copy;2020. All Rights Reserved by Aishwarya rai |  Contact Me: +91 9935306334</p><br>
+            <p>Have a question/project? Mail me at at<br><br>aishwarya.rai221b@gmail.com</p>
+        </center>
+    </div>
+</footer>
+    </body>
