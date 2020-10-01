@@ -109,6 +109,10 @@ h1{
   justify-content: center;
   align-content: center;
 }
+.shadow1:hover,.shadow2:hover,.shadow:hover{
+			transform: scale(1.05);
+			box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.35);
+}
 .con-head{
     font-weight: 500px;
     font-size: 20px;
